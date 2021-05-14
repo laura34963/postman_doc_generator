@@ -1,0 +1,9 @@
+development: &development
+  postman_dir: tmp/postman
+  project_host: "{{sign_host}}"
+
+test:
+  <<: *development
+
+production:
+  <<: *development

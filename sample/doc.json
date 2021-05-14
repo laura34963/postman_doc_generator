@@ -1,0 +1,9 @@
+{
+  "info": {
+    "_postman_id": "0a20119c-6691-4f45-b73b-261b981ea7bc",
+    "name": "Store Center",
+    "description": "New Creative Store Backend\n\n# Enviorments\n\n* preparing: https://preparing4.kdanmobile.com:3012\n* production: https://store-center.kdanmobile.com (working)\n\n\n### API Document\n[store_center](https://documenter.getpostman.com/view/8991729/SzzkdHKu)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": []
+}

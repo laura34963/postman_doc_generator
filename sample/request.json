@@ -1,0 +1,29 @@
+{
+  "name": "建立 Voucher",
+  "request": {
+    "method": "POST",
+    "header": [],
+    "body": {
+      "mode": "raw",
+      "raw": "{\n\t\"code\": \"voucher-c365\",\n\t\"product_id\": \"com.kdanmobile.customer_service.all_access_pack_helf_year\"\n}",
+      "options": {
+        "raw": {
+          "language": "json"
+        }
+      }
+    },
+    "url": {
+      "raw": "{{store_host}}/api/internal/voucher",
+      "host": [
+        "{{store_host}}"
+      ],
+      "path": [
+        "api",
+        "internal",
+        "voucher"
+      ]
+    },
+    "description": ""
+  },
+  "response": []
+}

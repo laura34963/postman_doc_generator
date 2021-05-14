@@ -1,0 +1,1 @@
+Postman::DocMaker.call(request.method_symbol, path, controller, response)
