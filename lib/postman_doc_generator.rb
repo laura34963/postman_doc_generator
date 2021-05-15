@@ -21,7 +21,6 @@ class PostmanDocGenerator
     @path = path
     @controller = controller
     @response = response
-    @file_path = file_path
   end
 
   def call
