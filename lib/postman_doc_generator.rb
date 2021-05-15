@@ -4,13 +4,15 @@ require 'fileutils'
 class PostmanDocGenerator
   attr_accessor :result, :error
 
-  def start(http_method, path, controller, response)
-    generator = new(http_method, path, controller, response)
-    generator.call
-  rescue => e
-    generator.error = e
-  ensure
-    generator
+  class << self
+    def start(http_method, path, controller, response)
+      generator = new(http_method, path, controller, response)
+      generator.call
+    rescue => e
+      generator.error = e
+    ensure
+      generator
+    end
   end
 
   def initialize(http_method, path, controller, response)

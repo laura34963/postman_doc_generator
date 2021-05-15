@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'postman_doc_generator'
-  s.version     = '0.1.1'
+  s.version     = '0.1.2'
   s.platform    = Gem::Platform::RUBY
   s.summary     = 'Generate Postman Doc Json After Run Rspec'
   s.description = 'A Json API Doc Generator of Postman'
