@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'postman_doc_generator'
-  s.version     = '0.1.4'
+  s.version     = '0.1.5'
   s.platform    = Gem::Platform::RUBY
   s.summary     = 'Generate Postman Doc Json After Run Rspec'
   s.description = 'A Json API Doc Generator of Postman'
@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/laura34963/postman_doc_generator'
   s.license     = 'MIT'
 
-  s.files            = `git ls-files -- lib/*`.split("\n")
+  s.files            = `git ls-files`.split("\n")
   s.extra_rdoc_files = [ 'README.md' ]
   s.rdoc_options     = ['--charset=UTF-8']
 
