@@ -5,7 +5,7 @@ development: &development
   project_host: "{{default_host}}"
   server_host: "preparing: https://preparing4.kdanmobile.com:3012\n* production: https://store-center.kdanmobile.com (working)"
   api_doc_name: api_doc
-  api_doc_link: https://documenter.getpostman.com/view/8991729/SzzkdHKu
+  api_doc_link: api_doc_link
 
 test:
   <<: *development

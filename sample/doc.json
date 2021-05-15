@@ -1,7 +1,7 @@
 {
   "info": {
-    "_postman_id": "0a20119c-6691-4f45-b73b-261b981ea7bc",
-    "name": "Store Center",
+    "_postman_id": "%{postman_id}",
+    "name": "%{project_name}",
     "description": "%{project_name}\n\n# Enviorments\n\n* %{server_host}\n\n\n### API Document\n[%{api_doc_name}](%{api_doc_link})",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },

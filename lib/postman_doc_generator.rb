@@ -47,7 +47,7 @@ class PostmanDocGenerator
     @res_status = @response.status
     @res_body =  @response.body.present? ? JSON.parse(@response.body) : {}
     data = File.read(@file_path) if File.exist?(@file_path)
-    @postman_data = data.blank? ? JSON.parse(File.read("#{@sample_dir}/doc.json")) : JSON.parse(data)
+    @postman_data = data.blank? ? JSON.parse(File.read("#{@sample_dir}/doc.json") % @config) : JSON.parse(data)
   end
 
   def setup_postman_json
